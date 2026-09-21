@@ -1,0 +1,25 @@
+<div>
+  <label for="firstNumber">Premier nombre:</label>
+  <input type="number" id="firstNumber" [(ngModel)]="firstNumber">
+
+  <br><br>
+
+  <label for="secondNumber">Second nombre:</label>
+  <input type="number" id="secondNumber" [(ngModel)]="secondNumber">
+
+  <br><br>
+
+  <label for="operation">Opération:</label>
+  <select id="operation" [(ngModel)]="operation">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+
+  <br><br>
+
+  <button (click)="calculate()">Calculer</button>
+
+  <p>Résultat: {{ result }}</p>
+</div><p></p>
