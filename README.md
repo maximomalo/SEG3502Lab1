@@ -1,55 +1,66 @@
-# Lab1TempConverter
+# Lab1TempConverter 
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
+Groupe 23
+Nicola Baker, 300360908
+Maxime Malouf, 300238380
 
-## Development server
 
-To start a local development server, run:
+## Étapes pour démarrer le projet Angular
+
+### 1. Cloner le projet
+
+Dans le terminal, faire :
+
+```bash
+git clone https://github.com/maximomalo/SEG3502Lab1.git
+```
+
+### 2. Entrer dans le dossier du projet
+
+```bash
+cd SEG3502Lab1
+```
+
+### 3. Vérifier les installations
+
+Vérifier que **Node.js**, **npm** et **Angular CLI** sont installés.
+
+### 4. Installer les dépendances
+
+Dans le dossier `SEG3502Lab1`, faire :
+
+```bash
+npm install
+```
+
+### 5. Démarrer le serveur
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Si `ng serve` ne fonctionne pas, vous pouvez utiliser :
 
 ```bash
-ng generate component component-name
+npx ng serve
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 6. Ouvrir le projet dans le navigateur
 
-```bash
-ng generate --help
+Une fois le serveur démarré, vous devriez voir une adresse comme :
+
+```text
+http://localhost:4200/
 ```
 
-## Building
+Ouvrez cette adresse dans votre navigateur.
 
-To build the project run:
+### 7. Arrêter le serveur
 
-```bash
-ng build
-```
+Pour arrêter le serveur, faites :
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
+```text
+Ctrl + C
 ```
 
 Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
