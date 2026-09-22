@@ -1,0 +1,17 @@
+button {
+  padding: 10px 15px;
+  margin-right: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+button:hover {
+  background-color: #d3d3d3;
+}
+
+button.active {
+  background-color: #b9b9b9;
+  color: #000000;
+}
